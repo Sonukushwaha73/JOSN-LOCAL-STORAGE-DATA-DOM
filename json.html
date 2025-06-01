@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>josn5</title>
+</head>
+<body>
+    <script>
+         let product = {
+         name:'laptop',
+         price:789,
+         rating:{//neted object
+            star:4.5,
+            noOfReview:453,
+         }
+         
+         };
+         console.log(typeof product);
+         console.log(product);
+         let str = JSON.stringify(product);
+         console.log(  typeof str);
+         console.log(str);
+         //agar mai convert karta hu javascriptmai
+
+
+         let object=JSON.parse(str);
+         console.log(typeof object);
+         console.log(object);
+         
+    </script>
+</body>
+</html>
