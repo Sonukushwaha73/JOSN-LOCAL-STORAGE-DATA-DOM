@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title> local storage</title>
+</head>
+<body>
+    <script>
+          let product = {
+         name:'laptop',
+         price:789,
+         rating:{//neted object
+            star:4.5,
+            noOfReview:453,
+         }
+         
+      };
+
+        //local storage
+        // localStorage.setltem('name','laptop');
+        //   localStorage.setltem('price','123465');
+
+       // console.log(localStorage.getItem('name'));//getlItem
+       // console.log(ocalStorage.getItem('product',JSON.strinhify(product));
+        // console.log(ocalStorage.getItem('product'));
+
+
+        let product2=JSON.parse(localstorage.getItem('product'));
+        console.log(product2);
+        localstorage.removeItem('product');
+
+
+
+
+
+          
+    </script>
+</body>
+</html>
